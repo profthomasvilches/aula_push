@@ -12,6 +12,7 @@ ggplot()+
   geom_point(aes(x, y), size = 3, color = "blue")+
   theme_bw()+
   theme(
-    axis.title = element_text(size = 20)
+    axis.title = element_text(size = 20),
+    axis.text = element_text(size = 50)
   )
   
